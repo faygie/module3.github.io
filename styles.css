@@ -1,0 +1,38 @@
+/*desktop*/
+@media (min-width: 992px){
+    #p1,#p2,#p3{
+        float: left;
+        width: 30%;
+        position: relative;
+    }
+}
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #p1{  
+        width: 46%;
+    }
+    #p2{  
+        width: 46%;
+    }
+    #p3{  
+        width: 96%;
+    }
+        
+    
+}
+/*mobile*/
+@media (max-width: 767){
+    div{
+        width: 95%;
+    }
+}
+#body {
+    height: 1000px;
+    background-color: rgba(162, 219, 219, 0.274);
+}
+#container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
